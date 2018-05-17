@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/responsive.css"> <!--Responsive Style-->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Responsive Sidebar Navigation | CodyHouse</title>
+</head>
+<body>
+	<header class="cd-main-header">
+		<h1><a href="#0" class="cd-logo">PIE</a></h1>
+
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+
+		<nav class="cd-nav">
+			<ul class="cd-top-nav">
+				<li class="has-children account">
+					<a href="#0">
+						<img src="img/cd-avatar.png" alt="avatar">
+						Account
+					</a>
+
+					<ul>
+
+						<li><a href="#0">My Account</a></li>
+						<li><a href="#0">Edit Account</a></li>
+						<li><a href="#0">Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header> <!-- .cd-main-header -->
+
+	<main class="cd-main-content">
+		<nav class="cd-side-nav">
+			<h2>Filters</h2>
+		<div class="checkbox">
+			<h3>Filter 1</h3>
+			<label class="container">One
+			  <input type="checkbox" checked="checked">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="container">Two
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="container">Three
+			  <input type="checkbox" name="chkcc9" id="group1">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="container">Four
+			  <input type="checkbox" name="chk9[150]" class="group1">
+			  <span class="checkmark"></span>
+			</label>
+		</div>
+		<div class="container-1">
+			<h3>Filter 2</h3>
+			<select class="1-100" placeholder="Select">
+			    <option value="1-10000" placeholder="Select">0</option>
+			</select>
+		</div>
+			
+			
+		</nav>
+
+		<div class="content-wrapper isOpen">
+			<a href="#isOpen" class="button"><i class="fas fa-bars"></i></a>
+			<h1>Products</h1>
+			<div class="product">
+				<div class="row">
+					<div class="grid">
+						<h2>Product 1</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn1"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<div class="grid">
+						<h2>Product 2</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn2"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn3"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<div class="grid">
+						<h2>Product 3</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn4"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn5"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<div class="grid">
+						<h2>Product 4</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn6"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn7"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<div class="grid">
+						<h2>Product 5</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn8"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn9"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<div class="grid">
+						<h2>Product 6</h2>
+						<h3>Title &nbsp;&nbsp;<button id="myBtn10"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+						<h3>Price &nbsp;<button id="myBtn11"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</button></h3>
+					</div>
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <span class="close">&times;</span>
+					    <h2>Product</h2>
+					    <form>
+					    	<input type="text" name="name" required="required" placeholder="Title">
+						    <input type="Number" name="number" required="required" placeholder="Price">
+						    <button type="submit">Submit</button>
+						    <button class="cls"><a href="">Close</a></button>
+					    </form>
+					    
+					  </div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div> <!-- .content-wrapper -->
+	</main> <!-- .cd-main-content -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.menu-aim.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/modal.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
